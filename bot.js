@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "&"
 var adminprefix = '&'
@@ -143,3 +143,4 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 
 
 
+client.login(process.env.BOT_TOKEN);
